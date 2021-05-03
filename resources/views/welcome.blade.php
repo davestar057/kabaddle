@@ -18,6 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" href="{{ mix('/css/custom.css') }}">
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -37,10 +38,16 @@
 
 </head>
 <body>
-<video autoplay loop playsinline muted>
-    <source src="/videos/kabaddle_1.mp4" type="video/mp4">
-</video>
+
+
 <div class="viewport-header">
+
+    <h1 class="absolute top-10 uppercase text-sm text-gray-200">Full Site Coming Soon</h1>
+
+    <video autoplay loop playsinline muted>
+        <source src="/videos/kabaddle_1.mp4" type="video/mp4">
+    </video>
+
     <div class="logo">
         <img src="/img/brand/logo-sm.png" alt="Kabaddle" class="img-fluid px-4">
     </div>

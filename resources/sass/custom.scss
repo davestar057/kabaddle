@@ -1,16 +1,5 @@
 @import "~animate.css/animate.css";
 
-video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #000;
-
-}
-
 html, body {
     height: 100%;
     font-family: 'Archivo', sans-serif;
@@ -41,6 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 1);
+    overflow-y: hidden;
 
 
     -webkit-animation: fadeInFromNone 1.5s ease-in forwards;
@@ -48,6 +38,18 @@ body {
     -o-animation: fadeInFromNone 1.5 ease-in forwards;
     animation: fadeInFromNone 1.5s ease-in forwards;
     animation-delay: 1s;
+
+    video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000;
+        z-index: -100;
+    }
+
 }
 
 
