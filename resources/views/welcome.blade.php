@@ -42,7 +42,6 @@
 
 <div class="viewport-header">
 
-    <h1 class="absolute top-10 uppercase text-sm text-gray-200">Full Site Coming Soon</h1>
 
     <video autoplay loop playsinline muted>
         <source src="/videos/kabaddle_1.mp4" type="video/mp4">
