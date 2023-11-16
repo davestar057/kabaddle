@@ -51,7 +51,7 @@
         <img src="/img/brand/logo-sm.png" alt="Kabaddle" class="img-fluid px-4">
     </div>
 
-    <p class="weDo">apps . digital . mobile . web . seo</p>
+    <p class="weDo">apps . digital . mobile . web . seo . ai</p>
     <p class="agency">WE BELIEVE CUTTING EDGE WEB DEVELOPMENT & SEO SHOULDN'T HAVE TO COST A FORTUNE OR BE
         COMPLICATED</p>
 
